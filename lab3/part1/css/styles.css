@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*added purple dots under jane doe */
 h1 {
   color: hotpink;
   font-size: 2em;
@@ -9,6 +9,8 @@ h1 {
   border-bottom: 10px dotted purple;
 }
 
+
+/*changed font to italic*/
 h2 {
   font-size: 1.5em;
   font-style: italic;
@@ -32,4 +34,12 @@ ul{
 	background-color:  #eeeeee;
 	border: 5px solid purple;
 	padding: 25px;
+}
+
+/* made so my link turns green when i hover*/
+
+
+a:hover {
+	color: green;
+	text-decoration: none;
 }
