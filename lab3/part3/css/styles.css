@@ -43,3 +43,50 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+body {
+  font-family: 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  color: #262625;
+  background-color: #faf9f7;
+}
+h1 {
+	font-size: 3.5rem;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 2rem;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 2rem;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+section p:first-of-type {
+	text-indent: 20px;
+}
+
+
+a {
+	text-decoration: underline;
+	color: #a66;
+}
