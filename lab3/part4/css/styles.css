@@ -2,7 +2,7 @@ body {
     background-color: #fff;
     color: #333;
     margin: 0;
-    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    font: 1.1em / 1.1 Arial, Helvetica, sans-serif;
   }
 
   img {
@@ -33,6 +33,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+	/*spaced out the black bar*/
 	display: flex;
 	justify-content: space-between;
   }
@@ -47,7 +48,8 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-	
+	 
+	 /*moved over the photos and made them smaller*/
 	display:grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 1px;
