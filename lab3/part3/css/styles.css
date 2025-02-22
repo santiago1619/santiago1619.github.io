@@ -90,3 +90,23 @@ a {
 	text-decoration: underline;
 	color: #a66;
 }
+
+nav {
+	background-color: #faf9f7;
+	padding: 20px;
+}
+
+nav ul li{
+	margin-bottom: 30px
+}
+
+nav a {
+	display: block;
+	padding:20px;
+	background-color: #faf9f7
+	color: white;
+	text-align: center;
+	border-radius: 2px;
+	border: 2px solid #a66;
+	font-weight: bold;
+}
