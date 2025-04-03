@@ -3,7 +3,7 @@ const thumbBar = document.querySelector('.thumb-bar');
 const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
-
+//photo files
 const imgArr = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 
 
@@ -22,14 +22,14 @@ for (let i = 0; i < imgArr.length; i++) {
     newImage.setAttribute('alt', imgAlts[i].altText);
     thumbBar.appendChild(newImage);
 }
-
+//adding lick event listner
 
 thumbBar.addEventListener("click", (event) => {
     displayedImage.setAttribute('src', event.target.getAttribute('src'));
     displayedImage.setAttribute('alt', event.target.getAttribute('alt'));
 });
 
-
+//writing a handler that runs the darken lighten button
 btn.addEventListener("click", () => {
     if (btn.getAttribute("class") === "dark") {
         btn.setAttribute("class", "light");
