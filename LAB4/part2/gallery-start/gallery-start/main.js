@@ -8,11 +8,11 @@ const imgArr = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 
 
 const imgAlts = [
-    {altText: "Photo 1 - Mountain Trail Path"},
-    {altText: "Photo 2 - Mountain Peak and Trail"},
-    {altText: "Photo 3 - Orange Flowers"},
-    {altText: "Photo 4 - Desert Mountain View"},
-    {altText: "Photo 5 - Sunrise in the Desert"}
+    {altText: "Photo 1 - eye"},
+    {altText: "Photo 2 - stone"},
+    {altText: "Photo 3 - purple flowers"},
+    {altText: "Photo 4 - drawings"},
+    {altText: "Photo 5 - butterfly"}
   ];
 
 
