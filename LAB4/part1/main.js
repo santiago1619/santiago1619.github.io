@@ -22,12 +22,12 @@ function result() {
 	const zItem = randomValueFromArray(insertZ);
 	
 	newstory = newstory.replaceAll(":insertx:", xItem)
-	.replace(":inserty:")
-	.replace(":insertz:");
+	.replace(":inserty:", yItem)
+	.replace(":insertz:"), zItem;
 
   if(customName.value !== '') {
     const name = customName.value;
-
+	newstory = newstory.replace("Bob", name)
   }
 
   if(document.getElementById("uk").checked) {
