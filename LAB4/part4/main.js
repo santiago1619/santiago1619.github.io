@@ -129,3 +129,4 @@ function loop() {
 loop();
 
 
+//didnt do the the evil circle code my screen would go white
