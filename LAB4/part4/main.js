@@ -18,7 +18,16 @@ function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
+class Shape {
 
+  constructor(x, y, velX, velY) {
+    this.x = x;
+    this.y = y;
+    this.velX = velX;
+    this.velY = velY;
+  }
+
+}
 //speed color and size of the balls
 class Ball {
   constructor(x, y, velX, velY, color, size) { 
@@ -29,6 +38,8 @@ class Ball {
     this.color = color;
     this.size = size;
   }
+
+
 
 draw() {
   ctx.beginPath();
@@ -57,6 +68,8 @@ update() {
   this.x += this.velX;
   this.y += this.velY;
 }
+
+
 //collision dection for the balls
 collisionDetect() {
   for (const ball of balls) {
