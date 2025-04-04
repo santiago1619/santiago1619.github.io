@@ -17,6 +17,9 @@ function random(min, max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+
+
+//speed color and size of the balls
 class Ball {
   constructor(x, y, velX, velY, color, size) { 
     this.x = x;
@@ -54,7 +57,7 @@ update() {
   this.x += this.velX;
   this.y += this.velY;
 }
-
+//collision dection for the balls
 collisionDetect() {
   for (const ball of balls) {
     if (this !== ball) {
@@ -94,7 +97,7 @@ while (balls.length < 25) {
 }
 
 
-
+//updated loop funcion to call ball.collisionDetect after ball.update
 
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
