@@ -49,7 +49,7 @@ p, li, table {
   line-height: 1.5;
 }
 
-/* || header layout */
+/* || changed backround color to white */
 
 div[class="nav"], article, footer, .secondary {
   background-color: white;
